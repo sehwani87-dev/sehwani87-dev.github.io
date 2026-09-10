@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>여행지갑 - Travel Wallet</title>
+<meta name="description" content="여행 중 쓴 돈을 장소와 함께 기록하는 iOS 앱. 여행별 예산과 남은 예산을 한눈에 확인하세요." />
+<style>
+  :root {
+    --green: #197a60;
+    --dark-green: #23483c;
+    --deep: #102924;
+    --mint: #eef8f4;
+    --mint-2: #f1f8f5;
+    --line: #dce6e1;
+    --muted: #5e6b68;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Malgun Gothic", sans-serif;
+    color: var(--deep);
+    background: #ffffff;
+    line-height: 1.7;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 24px; }
+  header {
+    background: linear-gradient(160deg, var(--mint) 0%, #ffffff 100%);
+    border-bottom: 1px solid var(--line);
+    padding: 72px 0 56px;
+    text-align: center;
+  }
+  h1 { font-size: 2.1rem; margin: 0 0 12px; letter-spacing: -0.02em; }
+  .tagline { font-size: 1.05rem; color: var(--muted); margin: 0 0 32px; }
+  .cta {
+    display: inline-block;
+    background: var(--green);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 13px 30px;
+    border-radius: 999px;
+  }
+  .cta:hover { background: var(--dark-green); }
+  section { padding: 52px 0; border-bottom: 1px solid var(--line); }
+  h2 { font-size: 1.3rem; margin: 0 0 20px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 10px; }
+  li strong { color: var(--dark-green); }
+  .contact { background: var(--mint-2); border-radius: 14px; padding: 22px 24px; }
+  .contact p { margin: 0 0 8px; }
+  .contact p:last-child { margin-bottom: 0; }
+  a { color: var(--green); }
+  footer { padding: 32px 0 56px; text-align: center; color: var(--muted); font-size: 0.9rem; }
+  footer a { margin: 0 10px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>여행지갑 · Travel Wallet</h1>
+    <p class="tagline">여행 중 쓴 돈을, 어디서 썼는지까지 함께 기록하세요.</p>
+    <a class="cta" href="https://apps.apple.com/kr/app/id6807707309">App Store에서 받기</a>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>주요 기능</h2>
+    <ul>
+      <li><strong>지도로 보는 지출</strong> — 지출한 장소가 지도에 표시되어, 여행이 끝난 뒤에도 어디서 무엇을 썼는지 기억할 수 있습니다.</li>
+      <li><strong>여행별 예산 관리</strong> — 전체 예산, 총 지출, 남은 예산을 한 화면에서 확인합니다.</li>
+      <li><strong>하루 사용 가능 금액</strong> — 남은 예산과 남은 일수를 계산해 오늘 얼마까지 쓸 수 있는지 알려줍니다.</li>
+      <li><strong>20개 통화 지원</strong> — 엔, 달러, 유로 등 여행지 통화로 기록합니다.</li>
+      <li><strong>카테고리별 가계부</strong> — 식비, 카페, 교통, 숙박, 쇼핑으로 나눠 지출 흐름을 봅니다.</li>
+      <li><strong>계정 없이 바로 사용</strong> — 회원가입이 필요 없고, 기록은 기기 안에 저장됩니다.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>문의</h2>
+    <div class="contact">
+      <p>앱 사용 중 불편한 점이나 제안할 기능이 있다면 편하게 연락해 주세요.</p>
+      <p><strong>이메일</strong> · <a href="mailto:sehwani87@gmail.com">sehwani87@gmail.com</a></p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <a href="https://apps.apple.com/kr/app/id6807707309">App Store</a>
+    <a href="/travelwallet-privacy/">개인정보처리방침</a>
+    <p>© 2026 Se Hwan Choi</p>
+  </div>
+</footer>
+
+</body>
+</html>
